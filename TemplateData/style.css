@@ -22,8 +22,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
   gap: 40px;
+  min-height: 0;
+  margin: 0;
 }
 #fhg-info {
   width: 300px;
@@ -52,7 +53,7 @@ body {
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: 0;
 }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(0, 0) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
